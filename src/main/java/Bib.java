@@ -31,7 +31,7 @@ public class Bib {
         String catalog = "+++++++++++ CATALOG +++++++++++";
         System.out.println(catalog);
         for (Book book : bib) {
-            System.out.printf("%15s, %10s, %4d\n", book.getName(), book.getAuthor(), book.getYear());
+            System.out.printf("%-15s; %-10s; %4d\n", book.getName(), book.getAuthor(), book.getYear());
         }
     }
 
