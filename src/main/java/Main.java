@@ -8,14 +8,12 @@ public class Main {
         Bib bib = new Bib();
         bib.add(new Book("World Of Warcraft", "Blizzard", 1998));
         bib.pullFile();
-
         String menu = "____________________________\n" +
                 "1- Add\n" +
                 "2- Delete\n" +
                 "3- Catalog\n" +
                 "-1- Exit\n" +
                 "____________________________";
-
         Scanner sc = new Scanner(System.in);
         System.out.println(menu);
         while (!sc.hasNext("-1")) {
