@@ -9,8 +9,6 @@ public class Book {
         this.year = year;
     }
 
-    public Book(){}
-
     public String getName() {
         return name;
     }
