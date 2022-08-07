@@ -40,6 +40,7 @@ public class Main {
                     break;
                 }
                 case ("3"): {
+                    sc.nextLine();
                     bib.show();
                     System.out.println(menu);
                     break;
